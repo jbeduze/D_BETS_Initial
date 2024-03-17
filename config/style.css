@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&family=Orbitron:wght@100;300&display=swap'); 
+
+html, body, div, p, input, span, li, button, [class*="css"] {
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 18px;
+    font-weight: 200;
+    color: #00FF00;
+}
+
+
+

@@ -1,0 +1,5 @@
+streamlit
+stripe
+streamlit-extras
+st-supabase-connection
+streamlit-elements
