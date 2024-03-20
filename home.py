@@ -31,7 +31,7 @@ with cntner1:
         # Accepting terms and conditions
         if st.button("Accept Terms and conditions", use_container_width=True) or st.session_state['terms_accepted']:
             st.session_state['terms_accepted'] = True  # Terms accepted
-        if st.session_state['terms_accepted']:
+        # if st.session_state['terms_accepted']:
             st.success('You have accepted the terms and conditions')
             cols = st.columns(2)
             # Asking if the customer is new or returning
