@@ -1,6 +1,5 @@
 import streamlit as st
-from streamlit.components.v1 import html
-from streamlit.components.v1 import components
+from streamlit.components.v1 import html, components
 from stripe_paywall import stripe_display as sdisplay, stripe_functions as sfunction, stripe_sessionstate as ssession
 from streamlit_extras.add_vertical_space import add_vertical_space
 import streamlit_scrollable_textbox as sctbx
